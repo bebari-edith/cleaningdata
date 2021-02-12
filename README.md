@@ -1,12 +1,19 @@
+Assignment Week 4 - Coursera Getting and Cleaning Data Course
 
-Getting and Cleaning Data Course Project
+This repository contains two files:
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+run_analysis.R
+CodeBook.md
+run_analysis.R
 
-Created an R script called run_analysis.R that does the following: 
+This R file carries out the following actions:
 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Downloads the original dataset
+Merges the training and test data sets into a single data set
+Transforms the data set so it only contains the means and standard deviations for each measurement
+Applies meaningful names to the data set columns
+Labels the data with the correct activity names from the original set
+Creates a separate data set with the average of each variable for each activity and subject
+CodeBook.MD
+
+This text file contains details of the data, variables, transformations and other work carried out to produce the final data set.
